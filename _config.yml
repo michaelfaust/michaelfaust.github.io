@@ -1,7 +1,7 @@
 # Site settings
 title: W Blog
 SEOTitle: 邬文凯的博客 | W Blog
-header-img: img/homepage_background.jpeg
+header-img: img/homepage_background.jpg
 email: wuwknju@gmail.com
 description: ""
 keyword: ""
@@ -51,9 +51,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: WUWENKAI
+# duoshuo_username: WUWENKAI
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -64,19 +64,19 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: wuwenkai.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "code,product,food"
+sidebar-about-description: "writing code, making products, super food"
 sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
@@ -92,5 +92,8 @@ friends: [
     {
         title: "范可",
         href: "http://frankfan.me/"
+    } , {
+        title: "LIMO",
+        href: "http://www.limoshake.com"
     }
 ]
